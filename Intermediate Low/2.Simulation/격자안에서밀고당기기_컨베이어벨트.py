@@ -1,9 +1,9 @@
-
 # 2. Simulation
 # 격자 안에서 밀고 당기기 - 컨베이어 벨트
 # t초의 시간이 흐른 뒤 컨베이어 벨트에 놓여있는 
 # 숫자들의 상태를 출력하는 프로그램을 작성해보세요.
-# 출처 : https://www.codetree.ai/missions/2/concepts/2/problems/conveyor-belt/description
+# 출처 : 코딩테스트 준비를 위한 알고리즘 정석
+# https://www.codetree.ai/missions/2/concepts/2/problems/conveyor-belt/description
 n, t = map(int, input().split())
 u = list(map(int, input().split()))
 d = list(map(int, input().split()))
