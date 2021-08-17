@@ -1,3 +1,5 @@
+# 출처: 코드트리
+# https://www.codetree.ai/missions/2/concepts/1/problems/look-and-say-sequence/description
 n = int(input())
 
 arr = [[] for _ in range(n + 1)]
@@ -13,4 +15,5 @@ for i in range(1, n):
             cnt = 1
         else:
             cnt += 1
-print(*arr[n])
+for i in arr[n]:
+    print(i,end='')
